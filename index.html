@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moracook&code|Portfolio</title>
+
+    <!-- link related -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Matemasie&family=Nerko+One&family=Shrikhand&display=swap" rel="stylesheet">
+
+    <!-- Bootstap 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap-grid.min.css" integrity="sha512-Aa+z1qgIG+Hv4H2W3EMl3btnnwTQRA47ZiSecYSkWavHUkBF2aPOIIvlvjLCsjapW1IfsGrEO3FU693ReouVTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="hero">
+
+
+    <header class=".container-sm mx-3 my-0">
+            <div class="nav-links">
+                <div class="nav-linkLeft">
+                    <h1 class="Shrikhand">Moracook&code</h1>
+                </div>
+                <div class="nav-linkRight">
+                    <nav>
+                        <ul>
+                            <!-- <li class="League-Spartan"><a href="#">Home</a></li>
+                            <li class="League-Spartan"><a href="#">Project</a></li>
+                            <li class="League-Spartan"><a href="#">Contact</a></li> -->
+                            <li class="League-Spartan"><a href="#">Menu</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+    </header>
+
+    <section class=".container-sm mx-3 my-2">
+        <div class="wrapper">
+            <div class="wrapper-profile" draggable="false">
+                <img class="profile-logo" src="images/profile.webp" alt="Profile Picture" draggable="flase">
+                <h1 class="Nerko-One">Hello there, Welcome to my Portfolio👋</h1>
+                <h2 class="League-Spartan">Where i <strong style="color: rgb(247, 30, 30, 1.2); font-size: larger;">Cook</strong> the <strong style="color: rgb(247, 30, 30, 1.2); font-size: larger;">Code</strong> ♨️📘🥶</h2>
+                <!-- <p></p> -->
+                <button class="League-Spartan btn">see more</button>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+    document.querySelector('.menu-toggle').addEventListener('click', function() {
+    document.querySelector('.nav-linkMenu ul').classList.toggle('show');
+    });
+
+    </script>
+</body>
+</html>

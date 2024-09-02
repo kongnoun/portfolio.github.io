@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+li,
+ul,
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+img,
+svg, 
+canvas,
+i {
+  user-select: none;
+  cursor: pointer;
+}
+
